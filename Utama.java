@@ -25,9 +25,9 @@ public class Utama {
         
         
         
+        //ini interface
         
-        
-        UtamaInterface dino = new UtamaInterface();
+        HewanPeliharaan dino = new HewanPeliharaan();
         dino.menanam();
         dino.ngarit();
         dino.memanen();
