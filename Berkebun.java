@@ -8,6 +8,6 @@ package pertemuanKedua;
  *
  * @author Salwa Faizah
  */
-public interface berkebun {
+public interface Berkebun {
     public void menanam();
 }
