@@ -8,7 +8,7 @@ package pertemuanKedua;
  *
  * @author Salwa Faizah
  */
-public class HewanPeliharaan extends Hewan {
+public class HewanPeliharaan extends Hewan implements Berkebun, Berternak, Bertani{
     private String jenisMakanan;
     private String caraBerproduksi;
     
@@ -47,4 +47,16 @@ public class HewanPeliharaan extends Hewan {
     public void setCaraBerproduksi(String caraBerproduksi) {
         this.caraBerproduksi = caraBerproduksi;
     }
+
+    @Override
+    public void menanam() {
+        System.out.println("Aku makan apa saja");    }
+
+    @Override
+    public void ngarit() {
+        System.out.println("Aku ngarit untuk hewanku");    }
+
+    @Override
+    public void memanen() {
+        System.out.println("Aku memanen");    }
 }
