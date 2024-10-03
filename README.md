@@ -4,12 +4,11 @@ Tugas Porrograman Berbasis Objek (PBO) pertemuan kedua ini yaitu mengimplementas
 ---
 
 ## Daftar Isi
-- [Constructor)(Constructor)
-- [Interface] (interface)
-- [This] (#This)
-- [Super] (#Super)
-- [Casting] (Casting)
-
+- [ Constructor](#Constructor)
+- [ Interface](#Interface)
+- [ This](#This)
+- [ Super](#Super)
+- [ Casting](#Casting)
 ---
 ## Constructor
 ### Pengertian
@@ -104,4 +103,11 @@ Casting adalah proses mengubah tipe data satu variabel ke tipe data lainnya.
 ### Contoh
 ```` java
 Hewan miaw = (Hewan) comel;
+System.out.println("Aku kochengg berkaki " + miaw.getJumlahKaki() +", aku bernafas loohhh " +miaw.getCaraBernafas());
 ````
+Casting dari objek comel ke tipe Hewan. Ini berarti menganggap bahwa comel adalah objek yang bisa diperlakukan sebagai Hewan. Casting ini dilakukan karena comel adalah objek dari kelas yang merupakan turunan dari Hewan, yaitu kelas HewanPeliharaan.
+
+---
+
+
+**Sekian dari saya, semoga dapat membantu dalam memahami tugas saya, TERIMAKASIHH!!!🙌**
